@@ -1,259 +1,437 @@
-
-
-    @font-face {
-        font-family: 'Roboto Black';
-        src: url('../fonts/Roboto-Black.eot');
-        src: url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Roboto-Black.woff') format('woff'),
-        url('../fonts/Roboto-Black.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-        }
-        
-
-        @font-face {
-            font-family: 'Roboto Light';
-            src: url('../fonts/Roboto-Light.eot');
-            src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
-            url('../fonts/Roboto-Light.woff') format('woff'),
-            url('../fonts/Roboto-Light.ttf') format('truetype');
-            font-weight: normal;
-            font-style: normal;
-            }
-
-            @font-face {
-                font-family: 'Roboto Thin';
-                src: url('../fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
-                url('../fonts/Roboto-Thin.woff') format('woff'),
-                url('../fonts/Roboto-Thin.ttf') format('truetype');
-                font-weight: normal;
-                font-style: normal;
-                }
-
-                @font-face {
-                    font-family: 'Roboto Regular';
-                    src: url('../fonts/Roboto-Regular.eot');
-                    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
-                    url('../fonts/Roboto-Regular.woff') format('woff'),
-                    url('../fonts/Roboto-Regular.ttf') format('truetype');
-                    font-weight: normal;
-                    font-style: normal;
-                    }
-
-
-
-
-
-
-header{
-    position: relative;
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url("../fonts/Roboto-Bold.eot");
+  src: url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-
-nav{
-    height: 50px;
-    background-color: #212121;
-    
-}
-.menu{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 13px 70px;
-    margin: 0;
+@font-face {
+  font-family: 'Roboto Black';
+  src: url("../fonts/Roboto-Black.eot");
+  src: url("../fonts/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Black.woff") format("woff"), url("../fonts/Roboto-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-
-.menu_link{
-    color: #ffffff;
-    font-family: 'Roboto light';
-    font-size: 15px;
-    font-weight: 300;
+@font-face {
+  font-family: 'Roboto Light';
+  src: url("../fonts/Roboto-Light.eot");
+  src: url("../fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Light.woff") format("woff"), url("../fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.menu_item{
-    border-right: 2px dotted black;
-    padding-right: 28px;
-
+@font-face {
+  font-family: 'Roboto Thin';
+  src: url("../fonts/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Thin.woff") format("woff"), url("../fonts/Roboto-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.subheader{
-    height: 84px;
-    background-color: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    width: 100%;
-    
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url("../fonts/Roboto-Regular.eot");
+  src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.subheader_img{
-    display: block;
-    max-width: 100%;
-    margin-top: 16px;
+/* line 35, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+header {
+  position: relative;
 }
 
-.subheader_oficial{
-    opacity: 0.5;
-    color: #ffffff;
-    font-family: "Roboto Regular";
-    font-size: 13px;
-    font-weight: 400;
-    margin-top: 6px;
-   
+/* line 38, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+nav {
+  height: 50px;
+  background-color: #212121;
 }
 
-.subheader_number{
-    color: #ffffff;
-    font-family: 'Roboto Light';
-    font-size: 12px;
-    font-weight: 300;
-    margin-top: 23px;
-
+/* line 42, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 13px 70px;
+  margin: 0;
 }
 
-.number{
-    color: #ffffff;
-    font-family: "Roboto Regular";
-    font-size: 22px;
-    font-weight: 400;
-    text-transform: uppercase;
+/* line 49, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.menu_link {
+  color: #ffffff;
+  font-family: 'Roboto light';
+  font-size: 15px;
+  font-weight: 300;
 }
 
-.order_call{
-    width: 172px;
-    height: 46px;
-    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
-    border: none;
-    border-radius: 4px;
-    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
-    margin-top: 19px;
-
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
-    color: #ffffff;
-    font-family: "Roboto Regular";
-    font-size: 14px;
-    font-weight: 400;
-
-    text-transform: uppercase;
+/* line 55, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
 }
 
-
- .uber_partners{
-    min-height: 750px;
-    padding: 151px 0 135px 0;
-    background: url(../img/bg/bg_1.jpg) center center/cover no-repeat;
-
+/* line 59, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.subheader {
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  margin-bottom: 0px;
 }
 
-h1{
-    color: #ffffff;
-    font-family: 'Roboto Bold';
-    font-size: 60px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-
+/* line 66, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.subheader_img {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
 }
 
-.uber_partners_header2{
-    color: #ffffff;
-    font-family: 'Roboto Regular';
-    font-size: 36px;
-    font-weight: 400;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 21px;
+/* line 71, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.subheader_oficial {
+  opacity: 0.5;
+  color: #ffffff;
+  font-family: "Roboto Regular";
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 6px;
 }
 
-.uber_partners_text{
-    width: 955px;
-    color: #ffffff;
-    font-family: 'Roboto Regular';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-    margin-top: 23px;
+/* line 79, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.subheader_number {
+  color: #ffffff;
+  font-family: 'Roboto Light';
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 23px;
 }
 
-.uber_partners_btn{
-    display: block;
-    width: 259px;
-    height: 63px;
-    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
-    border: none;
-    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
-    margin: 0 auto;
-    margin-top: 118px;
-    border-radius: 4px;
+/* line 86, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.number {
+  color: #ffffff;
+  font-family: "Roboto Regular";
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
-.reasons{
-    min-height: 800px;
+/* line 93, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.order_call {
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  margin-top: 19px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-family: "Roboto Regular";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
-.radius{
-    width: 113px;
-    height: 113px;
-    background-color: #1eacc7;
-    border-radius:100%;
-    margin-left: 35px;
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+/* line 108, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.uber_partners {
+  min-height: 750px;
+  padding: 151px 0 135px 0;
+  background: url(../img/bg/bg_1.jpg) center center/cover no-repeat;
 }
 
-
-
-
-.advantages{
-    width: 112px;
-    height: 24px;
-    background-color: #000000;
-    margin: 0 auto;
-    margin-top: 71px;
-    padding-top: 5px;
-
-    color: #ffffff;
-    font-family: "Roboto Thin";
-    font-size: 11px;
-    font-weight: 400;
-    text-transform: uppercase;
-    text-align: center;
+/* line 113, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+h1 {
+  color: #ffffff;
+  font-family: 'Roboto Bold';
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
-.reasons_work{
-    color: #222222;
-    font-family: 'Roboto Bold';
-    font-size: 38px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 38px;
+/* line 122, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.uber_partners_header2 {
+  color: #ffffff;
+  font-family: 'Roboto Regular';
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 21px;
+  margin-bottom: 0px;
 }
 
-.no-cash{
-    color: #1eacc7;
-    font-family: "Roboto Regular";
-    font-size: 17px;
-    font-weight: 400;
+/* line 132, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.uber_partners_text {
+  width: 955px;
+  color: #ffffff;
+  font-family: 'Roboto Regular';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 23px;
 }
 
-.reasons_text{
-    
-    min-height: 117px;
-    color: #202020;
-    font-family: 'Roboto Light';
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 21px;
-    
+/* line 142, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.uber_partners_btn {
+  display: block;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  margin: 0 auto;
+  margin-top: 118px;
+  border-radius: 4px;
 }
 
-.mar{
-    margin-top: 40px;
-    
+/* line 153, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.reasons {
+  min-height: 916px;
 }
 
+/* line 156, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.radius {
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+  margin-left: 35px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+/* line 167, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.stile_block {
+  width: 112px;
+  height: 24px;
+  background-color: #000000;
+  margin: 0 auto;
+  margin-top: 71px;
+  padding-top: 5px;
+  color: #ffffff;
+  font-family: "Roboto Thin";
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 3px;
+}
+
+/* line 182, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.reasons_work {
+  color: #222222;
+  font-family: 'Roboto Bold';
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 38px;
+}
+
+/* line 191, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.no-cash {
+  color: #1eacc7;
+  font-family: "Roboto Regular";
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* line 197, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.reasons_text {
+  min-height: 117px;
+  color: #202020;
+  font-family: 'Roboto Light';
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+/* line 205, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.mar {
+  margin-top: 40px;
+}
+
+/* line 208, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.app {
+  min-height: 864px;
+  background: url(../img/bg/bg_4.jpg) center center/cover no-repeat;
+  padding: 48px 0 79px 0;
+}
+
+/* line 213, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.app .opportunity {
+  width: 112px;
+  height: 24px;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Roboto Thin";
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 5px;
+  border-radius: 3px;
+}
+
+/* line 227, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.app .app_header {
+  color: #222222;
+  font-family: 'Roboto Bold';
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 38px;
+  margin-bottom: 0px;
+}
+
+/* line 236, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.app .app_subheader {
+  color: #222222;
+  font-family: 'Roboto Regular';
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 19px;
+  margin-bottom: 0px;
+}
+
+/* line 246, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.app .row .col-md-4 .app_item {
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-top: 32px;
+  padding: 91px 26px 35px 27px;
+}
+
+/* line 253, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.app .row .col-md-4 .app_text {
+  color: #ffffff;
+  font-family: 'Roboto Regular';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 261, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.app .row .col-md-4 .app_btn {
+  width: 26px;
+  height: 26px;
+  background-color: #000000;
+  display: block;
+  margin: 0 auto;
+  margin-top: 75px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 273, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.app .row .col-md-4 .app_item_1 {
+  background: url(../img/slids/2-layers.jpg) center center/cover no-repeat;
+}
+
+/* line 275, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.app .row .col-md-4 .app_item_2 {
+  background: url(../img/slids/3-layers.png) center center/cover no-repeat;
+}
+
+/* line 277, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.app .row .col-md-4 .app_item_3 {
+  background: url(../img/slids/4-layers.png) center center/cover no-repeat;
+}
+
+/* line 279, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.app .row .col-md-4 .app_item_4 {
+  background: url(../img/slids/5-layers.png) center center/cover no-repeat;
+  margin-top: 19px;
+}
+
+/* line 282, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.app .row .col-md-4 .app_item_5 {
+  margin-top: 19px;
+  background: url(../img/slids/6-layers.png) center center/cover no-repeat;
+}
+
+/* line 285, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.app .row .col-md-4 .app_item_6 {
+  margin-top: 19px;
+  background: url(../img/slids/6-layers.png) center center/cover no-repeat;
+}
+
+/* line 289, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.choise {
+  min-height: 1000px;
+  background: url(../img/bg/bg-2.jpg) center center/cover no-repeat;
+  padding: 65px 0 138px 0;
+}
+
+/* line 294, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.choise .container .opportunity_2 {
+  width: 112px;
+  height: 24px;
+  background-color: #ffffff;
+  color: #070716;
+  font-family: "Roboto Thin";
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 65px;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+/* line 308, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.choise .container .choise_title {
+  color: #ffffff;
+  font-family: 'Roboto Bold';
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* line 316, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.choise .container .choise_text {
+  color: #ffffff;
+  font-family: 'Roboto Regular';
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 19px;
+}
+
+/* line 324, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.choise .container .choise_block_img {
+  width: 759px;
+  height: 480px;
+  margin: 0 auto;
+  margin-top: 56px;
+}
+
+/* line 329, ../../../../MAMP/htdocs/uber/src/sass/style.sass */
+.choise .container .choise_text_2 {
+  color: #222222;
+  font-family: 'Roboto Light';
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */
