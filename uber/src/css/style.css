@@ -1,0 +1,259 @@
+
+
+    @font-face {
+        font-family: 'Roboto Black';
+        src: url('../fonts/Roboto-Black.eot');
+        src: url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Black.woff') format('woff'),
+        url('../fonts/Roboto-Black.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+        
+
+        @font-face {
+            font-family: 'Roboto Light';
+            src: url('../fonts/Roboto-Light.eot');
+            src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/Roboto-Light.woff') format('woff'),
+            url('../fonts/Roboto-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            }
+
+            @font-face {
+                font-family: 'Roboto Thin';
+                src: url('../fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+                url('../fonts/Roboto-Thin.woff') format('woff'),
+                url('../fonts/Roboto-Thin.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+                }
+
+                @font-face {
+                    font-family: 'Roboto Regular';
+                    src: url('../fonts/Roboto-Regular.eot');
+                    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+                    url('../fonts/Roboto-Regular.woff') format('woff'),
+                    url('../fonts/Roboto-Regular.ttf') format('truetype');
+                    font-weight: normal;
+                    font-style: normal;
+                    }
+
+
+
+
+
+
+header{
+    position: relative;
+}
+
+
+nav{
+    height: 50px;
+    background-color: #212121;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 13px 70px;
+    margin: 0;
+}
+
+
+.menu_link{
+    color: #ffffff;
+    font-family: 'Roboto light';
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu_item{
+    border-right: 2px dotted black;
+    padding-right: 28px;
+
+}
+
+.subheader{
+    height: 84px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    
+}
+
+.subheader_img{
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader_oficial{
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Roboto Regular";
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 6px;
+   
+}
+
+.subheader_number{
+    color: #ffffff;
+    font-family: 'Roboto Light';
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 23px;
+
+}
+
+.number{
+    color: #ffffff;
+    font-family: "Roboto Regular";
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.order_call{
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    margin-top: 19px;
+
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-family: "Roboto Regular";
+    font-size: 14px;
+    font-weight: 400;
+
+    text-transform: uppercase;
+}
+
+
+ .uber_partners{
+    min-height: 750px;
+    padding: 151px 0 135px 0;
+    background: url(../img/bg/bg_1.jpg) center center/cover no-repeat;
+
+}
+
+h1{
+    color: #ffffff;
+    font-family: 'Roboto Bold';
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.uber_partners_header2{
+    color: #ffffff;
+    font-family: 'Roboto Regular';
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.uber_partners_text{
+    width: 955px;
+    color: #ffffff;
+    font-family: 'Roboto Regular';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.uber_partners_btn{
+    display: block;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    margin: 0 auto;
+    margin-top: 118px;
+    border-radius: 4px;
+}
+
+.reasons{
+    min-height: 800px;
+}
+
+.radius{
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius:100%;
+    margin-left: 35px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+.advantages{
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    margin: 0 auto;
+    margin-top: 71px;
+    padding-top: 5px;
+
+    color: #ffffff;
+    font-family: "Roboto Thin";
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.reasons_work{
+    color: #222222;
+    font-family: 'Roboto Bold';
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 38px;
+}
+
+.no-cash{
+    color: #1eacc7;
+    font-family: "Roboto Regular";
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.reasons_text{
+    
+    min-height: 117px;
+    color: #202020;
+    font-family: 'Roboto Light';
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    
+}
+
+.mar{
+    margin-top: 40px;
+    
+}
+
+
