@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "media.css",
+	"sources": [
+		"../sass/media.sass"
+	],
+	"sourcesContent": [
+		"@media (max-width: 1200) {\n    .menu {\n        padding: 13px 40px;\n        &_item {\n            font-size: 13px; } } }\n\n"
+	],
+	"names": [],
+	"mappings": "AAAA,MAAM,EAAE,SAAS,EAAE,IAAI;;EACnB,AAAA,KAAK,CAAC;IACF,OAAO,EAAE,SAAS;GAEM;;EADvB,AAAD,UAAM,CAAC;IACH,SAAS,EAAE,IAAI;GAAG"
+}

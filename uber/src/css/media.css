@@ -1,0 +1,12 @@
+@media (max-width: 1200) {
+  /* line 2, ../../../../MAMP/htdocs/uber/src/sass/media.sass */
+  .menu {
+    padding: 13px 40px;
+  }
+  /* line 4, ../../../../MAMP/htdocs/uber/src/sass/media.sass */
+  .menu_item {
+    font-size: 13px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "mixins.css",
+	"sources": [
+		"../sass/mixins.sass"
+	],
+	"sourcesContent": [
+		"@mixin btn_hover {\n    &:hover {\n        background-image: none;\n        background-color: $second-color; } }\n"
+	],
+	"names": [],
+	"mappings": ""
+}
